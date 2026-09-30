@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-argument-boundary-clamping-filter-skill"
+version = "1.0.0"
+description = "Validates and clamps numerical values to minimum/maximum bounds and restricts string lengths"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = []
